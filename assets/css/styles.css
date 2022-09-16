@@ -150,7 +150,7 @@ main section:nth-child(3){
     animation-delay: .6s;
 }
 @keyframes fromTop{
-    form{
+    from{
         opacity: 0;
         transform: translateY(-30px);
     }
@@ -162,7 +162,7 @@ main section:nth-child(3){
 }
 
 @keyframes fromBottom{
-    form{
+    from{
         opacity: 0;
         transform: translateY(30px);
     }
